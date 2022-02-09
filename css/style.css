@@ -1,20 +1,26 @@
+* {
+box-sizing: border-box;
+
+}
+
 .Page-Space {
 
   font-family: Arial, sans-serif;
   width:100%;
   margin:0px;
-  display:inline;
+
 }
 
 
 .Main-Heading {
 
   background-color: red;
-  width:75%;
+  width:50%;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
   margin:auto;
+
 
 }
 
@@ -30,6 +36,8 @@
   background-color: yellow;
   text-align: center;
   margin: auto;
+  padding: 5px;
+
 }
 
 .Project-Details {
@@ -38,20 +46,34 @@
   background-color: blue;
   text-align: center;
   margin: auto;
+  padding: 5px;
 }
 
-.image-1 {
+.images-Box1 {
 
   width:90%;
+  height: 120px;
   margin:auto;
   display:flex;
   justify-content: space-between;
+  background-color: pink;
 }
 
-.image-2 {
+.images-Box2 {
 
   width:90%;
+  height:120px;
   margin:auto;
   display:flex;
   justify-content: space-between;
+  background-color: pink;
+}
+
+.Contact-Details {
+
+  width: 90%;
+  background-color: green;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
 }
