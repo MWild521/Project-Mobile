@@ -1,0 +1,57 @@
+.Page-Space {
+
+  font-family: Arial, sans-serif;
+  width:100%;
+  margin:0px;
+  display:inline;
+}
+
+
+.Main-Heading {
+
+  background-color: red;
+  width:75%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin:auto;
+
+}
+
+.Heading-Text {
+
+  font-size: 1.3em;
+  /* font-weight: bold; */
+}
+
+.Personal-Details {
+
+  width: 90%;
+  background-color: yellow;
+  text-align: center;
+  margin: auto;
+}
+
+.Project-Details {
+
+  width: 90%;
+  background-color: blue;
+  text-align: center;
+  margin: auto;
+}
+
+.image-1 {
+
+  width:90%;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+.image-2 {
+
+  width:90%;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+}
