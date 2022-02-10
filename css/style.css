@@ -40,6 +40,13 @@ background-color: rgba(0, 255, 0, 0.4);
 
 }
 
+.contact_text_box {
+
+
+  margin: 0 15px;
+
+}
+
 .p {
 
 font-size: 1.2em;
@@ -52,9 +59,15 @@ font-size: 1.2em;
 }
 
 
-.heading_text {
+.heading_text1 {
 
-  font-size: 1.5em;
+  font-size: 1.6em;
+  /* font-weight: bold; */
+}
+
+.heading_text2 {
+
+  font-size: 1.4em;
   /* font-weight: bold; */
 }
 
