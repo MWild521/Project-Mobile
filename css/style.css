@@ -1,6 +1,6 @@
 
 
-.Page-Space {
+.page_space {
 
   font-family: Arial, sans-serif;
   width:100vw;
@@ -14,7 +14,7 @@
 }
 
 
-.Main-Document {
+.main_document {
 
   width:90%;
    z-index: 10;
@@ -22,44 +22,65 @@
    margin: 0 auto;
 }
 
- .Main-Heading {
-
-  background-color: red;
+ .main_heading {
+background-color: rgba(0, 255, 0, 0.4);
+  /* background-color: red; */
   width:50%;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
   margin:5px auto;
+  border-radius: 5px;
+}
 
+.text_box {
+
+  text-align: justify;
+  margin: 0 15px;
 
 }
 
-.Heading-Text {
+.p {
 
-  font-size: 1.3em;
+font-size: 1.2em;
+}
+
+.p1 {
+
+  font-size: 1.2em;
+  font-style: bold;
+}
+
+
+.heading_text {
+
+  font-size: 1.5em;
   /* font-weight: bold; */
 }
 
-.Personal-Details {
+
+.personal_details {
 
   width:80%;
-  background-color: yellow;
+  background-color: hsla(360, 100%, 100%, 0.4);
   text-align: center;
   margin: auto;
   padding: 5px;
+  border-radius: 5px;
 
 }
 
-.Project-Details {
+.project_details {
 
   width: 80%;
-  background-color: blue;
+  background-color: hsla(360, 100%, 100%, 0.4);
   text-align: center;
   margin: auto;
   padding: 0.5px;
+  border-radius: 5px;
 }
 
-.images-Box1 {
+.images_box1 {
 
   width:80%;
   /* height: 160px; */
@@ -69,7 +90,7 @@
   /* background-color: pink; */
 }
 
-.images-Box2 {
+.images_box2 {
 
   width:80%;
   /* height:160px; */
@@ -79,13 +100,14 @@
   /* background-color: pink; */
 }
 
-.Contact-Details {
+.contact_details {
 
   width: 80%;
-  background-color: green;
+  background-color: rgba(0, 255, 0, 0.4);
   text-align: center;
   margin: 10px auto;
   padding: 5px;
+  border-radius: 5px;
 
 
 @media:
