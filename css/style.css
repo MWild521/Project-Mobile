@@ -1,25 +1,35 @@
-* {
-box-sizing: border-box;
 
-}
 
 .Page-Space {
 
   font-family: Arial, sans-serif;
-  width:100%;
+  width:100vw;
   margin:0px;
+  position:relative;
+  background-image: url(../images/Background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
 
 }
 
 
-.Main-Heading {
+.Main-Document {
+
+  width:90%;
+   z-index: 10;
+
+   margin: 0 auto;
+}
+
+ .Main-Heading {
 
   background-color: red;
   width:50%;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin:auto;
+  margin:5px auto;
 
 
 }
@@ -32,7 +42,7 @@ box-sizing: border-box;
 
 .Personal-Details {
 
-  width: 90%;
+  width:80%;
   background-color: yellow;
   text-align: center;
   margin: auto;
@@ -42,38 +52,40 @@ box-sizing: border-box;
 
 .Project-Details {
 
-  width: 90%;
+  width: 80%;
   background-color: blue;
   text-align: center;
   margin: auto;
-  padding: 5px;
+  padding: 0.5px;
 }
 
 .images-Box1 {
 
-  width:90%;
-  height: 120px;
-  margin:auto;
+  width:80%;
+  /* height: 160px; */
+  margin:5px auto;
   display:flex;
   justify-content: space-between;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .images-Box2 {
 
-  width:90%;
-  height:120px;
-  margin:auto;
+  width:80%;
+  /* height:160px; */
+  margin:5px auto;
   display:flex;
   justify-content: space-between;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .Contact-Details {
 
-  width: 90%;
+  width: 80%;
   background-color: green;
   text-align: center;
-  margin: auto;
+  margin: 10px auto;
   padding: 5px;
-}
+
+
+@media:
